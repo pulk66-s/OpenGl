@@ -1,6 +1,5 @@
 #include "main.hpp"
 
-
 int main(void) {
     Window win;
     win.setWinColor(0, 0, 0.4, 0);
@@ -12,26 +11,29 @@ int main(void) {
     cam.setPos(0, 0, 3);
 
     Squares sq;
-    Triangles t;
     GLfloat coords[] = {
+        -1, 1, 0,
         -1, -1, 0,
-        1, -1, 0,
-        0, 1, 0
-    },
-    colors[] = {
-        1, 0, 0,
-        1, 0, 0,
-        1, 0, 0
+        1, 1, 0,
+        1, 1, 0,
+        -1, -1, 0,
+        1, -1, 0
+    };
+    GLfloat colors[] = {
+        0, 1, 1,
+        0, 1, 1,
+        0, 1, 1,
+        0, 1, 1,
+        0, 1, 1,
+        0, 1, 1,
     };
 
-    t.create(coords, colors);
-    sq.create();
+    Square s = sq.create(coords, colors);
     do {
 		glClear(GL_COLOR_BUFFER_BIT);
 		glUseProgram(shaderId);
         cam.update();
         sq.draw();
-        t.draw();
 		glfwSwapBuffers(win.getWindow());
     } while (win.update());
 

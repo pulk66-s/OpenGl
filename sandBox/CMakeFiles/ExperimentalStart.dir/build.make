@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles
+CMAKE_SOURCE_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles
+CMAKE_BINARY_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox
 
 # Utility rule file for ExperimentalStart.
 
@@ -71,6 +71,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	cd /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

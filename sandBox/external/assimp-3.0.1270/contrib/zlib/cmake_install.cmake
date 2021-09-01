@@ -1,4 +1,4 @@
-# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/zlib
+# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

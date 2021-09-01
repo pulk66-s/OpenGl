@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external
-# Build directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external
+# Source directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external
+# Build directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

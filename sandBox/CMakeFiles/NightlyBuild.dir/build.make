@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles
+CMAKE_SOURCE_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles
+CMAKE_BINARY_DIR = /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox
 
 # Utility rule file for NightlyBuild.
 
@@ -71,6 +71,6 @@ CMakeFiles/NightlyBuild.dir/clean:
 .PHONY : CMakeFiles/NightlyBuild.dir/clean
 
 CMakeFiles/NightlyBuild.dir/depend:
-	cd /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyBuild.dir/depend
 

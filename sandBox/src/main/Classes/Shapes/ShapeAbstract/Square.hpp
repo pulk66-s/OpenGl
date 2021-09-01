@@ -20,11 +20,14 @@ public:
     Square(void);
     Square(GLfloat coords[SQUARE_SIZE]);
     Square(GLfloat coords[SQUARE_SIZE], GLfloat colors[SQUARE_SIZE]);
+    void move(float x, float y, float z);
     int getIndex(void);
     void setIndex(int index);
     Triangle *getTriangles(void);
     GLfloat *getCoords(void);
+    void setCoords(GLfloat coords[SQUARE_SIZE]);
     GLfloat *getColors(void);
+    void setColors(GLfloat r, GLfloat g, GLfloat b);
 
 };
 

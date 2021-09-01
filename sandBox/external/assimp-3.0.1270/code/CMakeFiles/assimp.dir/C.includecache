@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/ConvertUTF/ConvertUTF.c
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/ConvertUTF/ConvertUTF.c
 ConvertUTF.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/ConvertUTF/ConvertUTF.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/ConvertUTF/ConvertUTF.h
 stdio.h
 -
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/ConvertUTF/ConvertUTF.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/ConvertUTF/ConvertUTF.h
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/crypt.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/crypt.h
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/ioapi.c
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/ioapi.c
 stdio.h
 -
 stdlib.h
@@ -26,13 +26,13 @@ string.h
 zlib.h
 -
 ../zlib/zlib.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/zlib/zlib.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/zlib/zlib.h
 ioapi.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/ioapi.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/ioapi.h
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/ioapi.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/ioapi.h
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/unzip.c
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/unzip.c
 stdio.h
 -
 stdlib.h
@@ -40,7 +40,7 @@ stdlib.h
 string.h
 -
 ./unzip.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/unzip.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/unzip.h
 stddef.h
 -
 string.h
@@ -50,17 +50,17 @@ stdlib.h
 errno.h
 -
 crypt.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/crypt.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/crypt.h
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/unzip.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/unzip.h
 zlib.h
 -
 ../zlib/zlib.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/zlib/zlib.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/zlib/zlib.h
 ioapi.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/unzip/ioapi.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/unzip/ioapi.h
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/zlib/zconf.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/zlib/zconf.h
 windows.h
 -
 sys/types.h
@@ -70,7 +70,7 @@ unistd.h
 unixio.h
 -
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/zlib/zlib.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/zlib/zlib.h
 zconf.h
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/zlib/zconf.h
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/zlib/zconf.h
 

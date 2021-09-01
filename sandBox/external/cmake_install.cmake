@@ -1,4 +1,4 @@
-# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external
+# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/glfw-3.1.2/cmake_install.cmake")
-  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
-  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/assimp-3.0.1270/code/cmake_install.cmake")
-  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
-  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
-  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
-  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
+  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/glfw-3.1.2/cmake_install.cmake")
+  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
+  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/assimp-3.0.1270/code/cmake_install.cmake")
+  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
+  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
+  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
+  include("/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
 
 endif()
 

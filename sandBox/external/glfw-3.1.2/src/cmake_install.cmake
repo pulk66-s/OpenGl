@@ -1,4 +1,4 @@
-# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/glfw-3.1.2/src
+# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/glfw-3.1.2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/glfw-3.1.2/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/glfw-3.1.2/src/libglfw3.a")
 endif()
 

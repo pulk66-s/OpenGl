@@ -55,3 +55,48 @@ Squares::~Squares(void) {
 	glDeleteBuffers(1, &this->colorsBuffer);
 	glDeleteVertexArrays(1, &this->vertexBuffer);
 }
+
+Square Squares::create(GLfloat coords[SQUARE_SIZE]) {
+    Square created = Square(coords);
+    GLfloat *colors = created.getColors();
+
+    created.setIndex(this->squares.size());
+    this->squares.push_back(created);
+    for (int i = 0; i < SQUARE_SIZE; i++) {
+        this->allColors.push_back(colors[i]);
+        this->allCoords.push_back(coords[i]);
+    }
+    this->updateBuffer();
+    return (created);
+}
+
+Square Squares::create(GLfloat coords[SQUARE_SIZE], GLfloat colors[SQUARE_SIZE]) {
+    Square created = Square(coords, colors);
+
+    created.setIndex(this->squares.size());
+    this->squares.push_back(created);
+    for (int i = 0; i < SQUARE_SIZE; i++) {
+        this->allColors.push_back(colors[i]);
+        this->allCoords.push_back(coords[i]);
+    }
+    this->updateBuffer();
+    return (created);
+}
+
+void Squares::update(Square square) {
+    int vectorIndex = -1;
+    GLfloat *colors = square.getColors(), *coords = square.getCoords();
+
+    for (Square s : this->squares) {
+        vectorIndex++;
+        if (s.getIndex() == square.getIndex()) {
+            this->squares[vectorIndex] = square;
+            break;
+        }
+    }
+    for (int i = 0; i < SQUARE_SIZE; i++) {
+        this->allCoords[vectorIndex * SQUARE_SIZE + i] = coords[i];
+        this->allColors[vectorIndex * SQUARE_SIZE + i] = colors[i];
+    }
+    this->updateBuffer();
+}

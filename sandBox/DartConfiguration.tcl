@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles
-BuildDirectory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles
+SourceDirectory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox
+BuildDirectory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles"
+ConfigureCommand: "/usr/bin/cmake" "/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

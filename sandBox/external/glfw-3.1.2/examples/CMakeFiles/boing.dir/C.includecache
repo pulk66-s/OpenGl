@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/glfw-3.1.2/examples/boing.c
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/glfw-3.1.2/examples/boing.c
 stdio.h
 -
 stdlib.h

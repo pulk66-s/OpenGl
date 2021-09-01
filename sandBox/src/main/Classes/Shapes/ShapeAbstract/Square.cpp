@@ -55,12 +55,14 @@ Square::Square(GLfloat coords[SQUARE_SIZE], GLfloat colors[SQUARE_SIZE]) {
 
     for (int i = 0; i < SQUARE_SIZE; i++) {
         if (i >= 9) {
-            coords2[i - 9] = colors[i];
+            coords2[i - 9] = coords[i];
             colors2[i - 9] = colors[i];
         } else {
-            coords1[i] = colors[i];
+            coords1[i] = coords[i];
             colors1[i] = colors[i];
         }
+        this->colors[i] = colors[i];
+        this->coords[i] = coords[i];
     }
     this->triangles[0] = Triangle(coords1, colors1);
     this->triangles[1] = Triangle(coords2, colors2);
@@ -84,4 +86,35 @@ GLfloat *Square::getCoords(void) {
 
 GLfloat *Square::getColors(void) {
     return (this->colors);
+}
+
+void Square::move(GLfloat x, GLfloat y, GLfloat z) {
+    this->triangles[0].move(x, y, z);
+    this->triangles[1].move(x, y, z);
+    GLfloat *coords1 = this->triangles[0].getCoords(),
+            *coords2 = this->triangles[1].getCoords();
+
+    for (int i = 0; i < SQUARE_SIZE; i++) {
+        if (i >= 9) {
+            this->coords[i] = coords2[i - 9];
+        } else {
+            this->coords[i] = coords1[i];
+        }
+    }
+}
+
+void Square::setColors(GLfloat r, GLfloat g, GLfloat b) {
+    GLfloat colors[] = {r, g, b};
+
+    this->triangles[0].setColors(colors);
+    this->triangles[1].setColors(colors);
+    for (int i = 0; i < SQUARE_SIZE; i++) {
+        this->colors[i] = colors[i % 3];
+    }
+}
+
+void Square::setCoords(GLfloat coords[SQUARE_SIZE]) {
+    for (int i = 0; i < SQUARE_SIZE; i++) {
+        this->coords[i] = coords[i];
+    }
 }

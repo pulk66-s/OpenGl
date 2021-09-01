@@ -1,4 +1,4 @@
-# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/multipleTriangles/external/glfw-3.1.2/examples
+# Install script for directory: /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/external/glfw-3.1.2/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
