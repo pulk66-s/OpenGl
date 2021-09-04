@@ -42,6 +42,7 @@ void Cubes::updateBuffer(void) {
 	glBufferData(GL_ARRAY_BUFFER, sizeof(colors), colors, GL_STATIC_DRAW);
 }
 
+#include <iostream>
 void Cubes::update(Cube cube) {
     int vectorIndex = -1;
     GLfloat *coords = cube.getCoords(), *colors = cube.getColors();
@@ -52,6 +53,7 @@ void Cubes::update(Cube cube) {
             break;
         }
     }
+    this->cubes[vectorIndex] = cube;
     for (int i = 0; i < CUBE_SIZE; i++) {
         this->allCoords[vectorIndex * CUBE_SIZE + i] = coords[i];
         this->allColors[vectorIndex * CUBE_SIZE + i] = colors[i];
@@ -71,4 +73,8 @@ void Cubes::draw(void) {
     glDrawArrays(GL_TRIANGLES, 0, this->allCoords.size() / 3);
     glDisableVertexAttribArray(0);
     glDisableVertexAttribArray(1);
+}
+
+std::vector<Cube> Cubes::getCubes(void) {
+    return (this->cubes);
 }

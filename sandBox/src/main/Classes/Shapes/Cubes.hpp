@@ -19,6 +19,7 @@ public:
     Cube create(void);
     void update(Cube cube);
     void draw(void);
+    std::vector<Cube> getCubes(void);
 
 };
 

@@ -20,7 +20,9 @@ private:
 public:
     Object(std::string path);
     void draw(void);
+    void move(float x, float y, float z);
     void setName(std::string name);
+    std::vector<Cube> getBlocs(void);
     std::string getName(void);
 
 };

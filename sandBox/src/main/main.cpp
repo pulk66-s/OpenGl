@@ -11,11 +11,13 @@ int main(void) {
     cam.setPos(3, 4, 6);
 
     Object o("Object/firstObject.txt");
+    std::vector<Cube> cubes = o.getBlocs();
 
     do {
 		glClear(GL_COLOR_BUFFER_BIT);
 		glUseProgram(shaderId);
         cam.update();
+        o.move(0.01, 0, 0);
         o.draw();
 		glfwSwapBuffers(win.getWindow());
     } while (win.update());

@@ -66,3 +66,16 @@ std::string Object::getName(void) {
 void Object::draw(void) {
     this->blocs.draw();
 }
+
+void Object::move(float x, float y, float z) {
+    std::vector<Cube> cubes = this->blocs.getCubes();
+
+    for (Cube c : cubes) {
+        c.move(x, y, z);
+        this->blocs.update(c);
+    }
+}
+
+std::vector<Cube> Object::getBlocs(void) {
+    return (this->blocs.getCubes());
+}

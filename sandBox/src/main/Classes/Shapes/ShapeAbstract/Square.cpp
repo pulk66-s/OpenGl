@@ -91,15 +91,10 @@ GLfloat *Square::getColors(void) {
 void Square::move(GLfloat x, GLfloat y, GLfloat z) {
     this->triangles[0].move(x, y, z);
     this->triangles[1].move(x, y, z);
-    GLfloat *coords1 = this->triangles[0].getCoords(),
-            *coords2 = this->triangles[1].getCoords();
+    GLfloat move[] = {x, y, z};
 
     for (int i = 0; i < SQUARE_SIZE; i++) {
-        if (i >= 9) {
-            this->coords[i] = coords2[i - 9];
-        } else {
-            this->coords[i] = coords1[i];
-        }
+        this->coords[i] += move[i % 3];
     }
 }
 
