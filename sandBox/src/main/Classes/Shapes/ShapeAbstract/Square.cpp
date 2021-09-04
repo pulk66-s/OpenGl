@@ -118,3 +118,18 @@ void Square::setCoords(GLfloat coords[SQUARE_SIZE]) {
         this->coords[i] = coords[i];
     }
 }
+
+void Square::setColors(GLfloat colors[SQUARE_SIZE]) {
+    GLfloat coords1[9], coords2[9];
+
+    for (int i = 0; i < SQUARE_SIZE; i++) {
+        if (i >= 9) {
+            coords2[i - 9] = colors[i];
+        } else {
+            coords1[i] = colors[i];
+        }
+        this->colors[i] = colors[i];
+    }
+    this->triangles[0].setColors(coords1);
+    this->triangles[1].setColors(coords2);
+}

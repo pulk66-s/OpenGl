@@ -11,7 +11,6 @@ Cubes::~Cubes(void) {
 	glDeleteVertexArrays(1, &this->vertexBuffer);
 }
 
-#include <iostream>
 Cube Cubes::create(void) {
     Cube created = Cube();
     GLfloat *cCoords = created.getCoords(), *cColors = created.getColors();
@@ -45,10 +44,19 @@ void Cubes::updateBuffer(void) {
 
 void Cubes::update(Cube cube) {
     int vectorIndex = -1;
+    GLfloat *coords = cube.getCoords(), *colors = cube.getColors();
 
     for (Cube c : this->cubes) {
         vectorIndex++;
+        if (c.getIndex() == cube.getIndex()) {
+            break;
+        }
     }
+    for (int i = 0; i < CUBE_SIZE; i++) {
+        this->allCoords[vectorIndex * CUBE_SIZE + i] = coords[i];
+        this->allColors[vectorIndex * CUBE_SIZE + i] = colors[i];
+    }
+    this->updateBuffer();
 }
 
 void Cubes::draw(void) {

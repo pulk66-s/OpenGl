@@ -1,5 +1,5 @@
-#ifndef __CUBES_HPP__
-#define __CUBES_HPP__
+#ifndef __SQUARES_HPP__
+#define __SQUARES_HPP__
 
 #include <vector>
 

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/testing.dir/src/main/Classes/Camera.cpp.o"
   "CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.o"
+  "CMakeFiles/testing.dir/src/main/Classes/File.cpp.o"
+  "CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o"
   "CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o"
   "CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o"
   "CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Square.cpp.o"

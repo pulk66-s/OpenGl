@@ -10,6 +10,7 @@
 #include "Classes/Camera.hpp"
 #include "Classes/Window.hpp"
 #include "Classes/Colors.hpp"
+#include "Classes/Object.hpp"
 #include "Classes/Shapes/Triangles.hpp"
 #include "Classes/Shapes/Cubes.hpp"
 #include "Classes/Shapes/Squares.hpp"

@@ -8,20 +8,15 @@ int main(void) {
     }
     GLuint shaderId = LoadShaders("src/main/Shaders/SimpleTransform.vertexshader", "src/main/Shaders/SingleColor.fragmentshader");
     Camera cam(&win, &shaderId);
-    cam.setPos(3, 0, 3);
+    cam.setPos(3, 4, 6);
 
-    Cubes c;
+    Object o("Object/firstObject.txt");
 
-    Cube c1 = c.create();
-    GLfloat *coords = c1.getCoords(), *colors = c1.getColors();
-    for (int i = 0; i < CUBE_SIZE; i++) {
-        std::cout << coords[i] << " " << colors[i] << "\n";
-    }
     do {
 		glClear(GL_COLOR_BUFFER_BIT);
 		glUseProgram(shaderId);
         cam.update();
-        c.draw();
+        o.draw();
 		glfwSwapBuffers(win.getWindow());
     } while (win.update());
 

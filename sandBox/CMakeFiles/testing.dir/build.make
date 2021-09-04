@@ -122,9 +122,35 @@ CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Colors.cpp -o CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.s
 
+CMakeFiles/testing.dir/src/main/Classes/File.cpp.o: CMakeFiles/testing.dir/flags.make
+CMakeFiles/testing.dir/src/main/Classes/File.cpp.o: src/main/Classes/File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/File.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/File.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/File.cpp
+
+CMakeFiles/testing.dir/src/main/Classes/File.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing.dir/src/main/Classes/File.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/File.cpp > CMakeFiles/testing.dir/src/main/Classes/File.cpp.i
+
+CMakeFiles/testing.dir/src/main/Classes/File.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/src/main/Classes/File.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/File.cpp -o CMakeFiles/testing.dir/src/main/Classes/File.cpp.s
+
+CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o: CMakeFiles/testing.dir/flags.make
+CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o: src/main/Classes/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Object.cpp
+
+CMakeFiles/testing.dir/src/main/Classes/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing.dir/src/main/Classes/Object.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Object.cpp > CMakeFiles/testing.dir/src/main/Classes/Object.cpp.i
+
+CMakeFiles/testing.dir/src/main/Classes/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing.dir/src/main/Classes/Object.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Object.cpp -o CMakeFiles/testing.dir/src/main/Classes/Object.cpp.s
+
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.o: CMakeFiles/testing.dir/flags.make
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.o: src/main/Classes/Shapes/Triangles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Triangles.cpp
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.i: cmake_force
@@ -137,7 +163,7 @@ CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.s: cmake_force
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.o: CMakeFiles/testing.dir/flags.make
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.o: src/main/Classes/Shapes/Squares.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Squares.cpp
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.i: cmake_force
@@ -150,7 +176,7 @@ CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.s: cmake_force
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o: CMakeFiles/testing.dir/flags.make
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o: src/main/Classes/Shapes/Cubes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Cubes.cpp
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.i: cmake_force
@@ -163,7 +189,7 @@ CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.s: cmake_force
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp.o: CMakeFiles/testing.dir/flags.make
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp.o: src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp.i: cmake_force
@@ -176,7 +202,7 @@ CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp.s: cma
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o: CMakeFiles/testing.dir/flags.make
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o: src/main/Classes/Shapes/ShapeAbstract/Cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.i: cmake_force
@@ -189,7 +215,7 @@ CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.s: cmake_f
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Square.cpp.o: CMakeFiles/testing.dir/flags.make
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Square.cpp.o: src/main/Classes/Shapes/ShapeAbstract/Square.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Square.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Square.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Square.cpp.o -c /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/ShapeAbstract/Square.cpp
 
 CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Square.cpp.i: cmake_force
@@ -207,6 +233,8 @@ testing_OBJECTS = \
 "CMakeFiles/testing.dir/src/main/Classes/Window.cpp.o" \
 "CMakeFiles/testing.dir/src/main/Classes/Camera.cpp.o" \
 "CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.o" \
+"CMakeFiles/testing.dir/src/main/Classes/File.cpp.o" \
+"CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o" \
 "CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.o" \
 "CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.o" \
 "CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o" \
@@ -222,6 +250,8 @@ testing: CMakeFiles/testing.dir/src/main/Shaders/shader.cpp.o
 testing: CMakeFiles/testing.dir/src/main/Classes/Window.cpp.o
 testing: CMakeFiles/testing.dir/src/main/Classes/Camera.cpp.o
 testing: CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.o
+testing: CMakeFiles/testing.dir/src/main/Classes/File.cpp.o
+testing: CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o
 testing: CMakeFiles/testing.dir/src/main/Classes/Shapes/Triangles.cpp.o
 testing: CMakeFiles/testing.dir/src/main/Classes/Shapes/Squares.cpp.o
 testing: CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o
@@ -252,7 +282,7 @@ testing: /usr/lib/x86_64-linux-gnu/libXcursor.so
 testing: /usr/lib/x86_64-linux-gnu/libGL.so
 testing: /usr/lib/x86_64-linux-gnu/libGLU.so
 testing: CMakeFiles/testing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable testing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable testing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

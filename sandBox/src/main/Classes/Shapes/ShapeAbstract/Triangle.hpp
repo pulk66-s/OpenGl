@@ -15,13 +15,13 @@ private:
 
 public:
     Triangle(void);
-    Triangle(GLfloat coords[]);
-    Triangle(GLfloat coords[], GLfloat colors[]);
+    Triangle(GLfloat coords[TRIANGLE_SIZE]);
+    Triangle(GLfloat coords[TRIANGLE_SIZE], GLfloat colors[TRIANGLE_SIZE]);
     void move(float x, float y, float z);
     GLfloat *getColors(void);
     GLfloat *getCoords(void);
-    void setColors(GLfloat colors[]);
-    void setCoords(GLfloat coords[]);
+    void setColors(GLfloat colors[TRIANGLE_SIZE]);
+    void setCoords(GLfloat coords[TRIANGLE_SIZE]);
     void setIndex(int index);
     int getIndex(void);
 

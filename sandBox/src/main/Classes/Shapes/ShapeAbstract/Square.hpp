@@ -29,6 +29,7 @@ public:
     void setWidth(GLfloat w);
     GLfloat *getColors(void);
     void setColors(GLfloat r, GLfloat g, GLfloat b);
+    void setColors(GLfloat color[SQUARE_SIZE]);
 
 };
 

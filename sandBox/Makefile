@@ -1027,6 +1027,60 @@ src/main/Classes/Colors.cpp.s:
 	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.s
 .PHONY : src/main/Classes/Colors.cpp.s
 
+src/main/Classes/File.o: src/main/Classes/File.cpp.o
+
+.PHONY : src/main/Classes/File.o
+
+# target to build an object file
+src/main/Classes/File.cpp.o:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/File.cpp.o
+.PHONY : src/main/Classes/File.cpp.o
+
+src/main/Classes/File.i: src/main/Classes/File.cpp.i
+
+.PHONY : src/main/Classes/File.i
+
+# target to preprocess a source file
+src/main/Classes/File.cpp.i:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/File.cpp.i
+.PHONY : src/main/Classes/File.cpp.i
+
+src/main/Classes/File.s: src/main/Classes/File.cpp.s
+
+.PHONY : src/main/Classes/File.s
+
+# target to generate assembly for a file
+src/main/Classes/File.cpp.s:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/File.cpp.s
+.PHONY : src/main/Classes/File.cpp.s
+
+src/main/Classes/Object.o: src/main/Classes/Object.cpp.o
+
+.PHONY : src/main/Classes/Object.o
+
+# target to build an object file
+src/main/Classes/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Object.cpp.o
+.PHONY : src/main/Classes/Object.cpp.o
+
+src/main/Classes/Object.i: src/main/Classes/Object.cpp.i
+
+.PHONY : src/main/Classes/Object.i
+
+# target to preprocess a source file
+src/main/Classes/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Object.cpp.i
+.PHONY : src/main/Classes/Object.cpp.i
+
+src/main/Classes/Object.s: src/main/Classes/Object.cpp.s
+
+.PHONY : src/main/Classes/Object.s
+
+# target to generate assembly for a file
+src/main/Classes/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Object.cpp.s
+.PHONY : src/main/Classes/Object.cpp.s
+
 src/main/Classes/Shapes/Cubes.o: src/main/Classes/Shapes/Cubes.cpp.o
 
 .PHONY : src/main/Classes/Shapes/Cubes.o
@@ -1351,6 +1405,12 @@ help:
 	@echo "... src/main/Classes/Colors.o"
 	@echo "... src/main/Classes/Colors.i"
 	@echo "... src/main/Classes/Colors.s"
+	@echo "... src/main/Classes/File.o"
+	@echo "... src/main/Classes/File.i"
+	@echo "... src/main/Classes/File.s"
+	@echo "... src/main/Classes/Object.o"
+	@echo "... src/main/Classes/Object.i"
+	@echo "... src/main/Classes/Object.s"
 	@echo "... src/main/Classes/Shapes/Cubes.o"
 	@echo "... src/main/Classes/Shapes/Cubes.i"
 	@echo "... src/main/Classes/Shapes/Cubes.s"

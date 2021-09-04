@@ -39,6 +39,8 @@ add_executable(testing
 	src/main/Classes/Window.cpp
 	src/main/Classes/Camera.cpp
 	src/main/Classes/Colors.cpp
+	src/main/Classes/File.cpp
+	src/main/Classes/Object.cpp
 	src/main/Classes/Shapes/Triangles.cpp
 	src/main/Classes/Shapes/Squares.cpp
 	src/main/Classes/Shapes/Cubes.cpp

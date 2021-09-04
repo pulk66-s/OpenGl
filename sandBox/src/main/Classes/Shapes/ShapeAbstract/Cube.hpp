@@ -14,14 +14,16 @@
 class Cube {
 
 private:
-    Square faces[CUBE_SIZE / 6];
+    Square faces[CUBE_SIZE / 18];
     int index;
     GLfloat coords[CUBE_SIZE], colors[CUBE_SIZE];
 
 public:
     Cube(void);
+    void move(float x, float y, float z);
     void setCoords(GLfloat coords[CUBE_SIZE]);
     GLfloat *getCoords(void);
+    void setColors(GLfloat colors[CUBE_SIZE]);
     GLfloat *getColors(void);
     int getIndex(void);
     void setIndex(int index);
