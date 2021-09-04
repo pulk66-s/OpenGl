@@ -24,7 +24,7 @@ Square::Square(void) {
             this->coords[i] = coord2[i - 9];
         } else {
             this->colors[i] = tColors[i];
-            this->coords[i] = coord2[i];
+            this->coords[i] = coord1[i];
         }
     }
 }

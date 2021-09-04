@@ -1027,6 +1027,60 @@ src/main/Classes/Colors.cpp.s:
 	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Colors.cpp.s
 .PHONY : src/main/Classes/Colors.cpp.s
 
+src/main/Classes/Shapes/Cubes.o: src/main/Classes/Shapes/Cubes.cpp.o
+
+.PHONY : src/main/Classes/Shapes/Cubes.o
+
+# target to build an object file
+src/main/Classes/Shapes/Cubes.cpp.o:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.o
+.PHONY : src/main/Classes/Shapes/Cubes.cpp.o
+
+src/main/Classes/Shapes/Cubes.i: src/main/Classes/Shapes/Cubes.cpp.i
+
+.PHONY : src/main/Classes/Shapes/Cubes.i
+
+# target to preprocess a source file
+src/main/Classes/Shapes/Cubes.cpp.i:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.i
+.PHONY : src/main/Classes/Shapes/Cubes.cpp.i
+
+src/main/Classes/Shapes/Cubes.s: src/main/Classes/Shapes/Cubes.cpp.s
+
+.PHONY : src/main/Classes/Shapes/Cubes.s
+
+# target to generate assembly for a file
+src/main/Classes/Shapes/Cubes.cpp.s:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Shapes/Cubes.cpp.s
+.PHONY : src/main/Classes/Shapes/Cubes.cpp.s
+
+src/main/Classes/Shapes/ShapeAbstract/Cube.o: src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o
+
+.PHONY : src/main/Classes/Shapes/ShapeAbstract/Cube.o
+
+# target to build an object file
+src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o
+.PHONY : src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.o
+
+src/main/Classes/Shapes/ShapeAbstract/Cube.i: src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.i
+
+.PHONY : src/main/Classes/Shapes/ShapeAbstract/Cube.i
+
+# target to preprocess a source file
+src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.i:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.i
+.PHONY : src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.i
+
+src/main/Classes/Shapes/ShapeAbstract/Cube.s: src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.s
+
+.PHONY : src/main/Classes/Shapes/ShapeAbstract/Cube.s
+
+# target to generate assembly for a file
+src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.s:
+	$(MAKE) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.s
+.PHONY : src/main/Classes/Shapes/ShapeAbstract/Cube.cpp.s
+
 src/main/Classes/Shapes/ShapeAbstract/Square.o: src/main/Classes/Shapes/ShapeAbstract/Square.cpp.o
 
 .PHONY : src/main/Classes/Shapes/ShapeAbstract/Square.o
@@ -1297,6 +1351,12 @@ help:
 	@echo "... src/main/Classes/Colors.o"
 	@echo "... src/main/Classes/Colors.i"
 	@echo "... src/main/Classes/Colors.s"
+	@echo "... src/main/Classes/Shapes/Cubes.o"
+	@echo "... src/main/Classes/Shapes/Cubes.i"
+	@echo "... src/main/Classes/Shapes/Cubes.s"
+	@echo "... src/main/Classes/Shapes/ShapeAbstract/Cube.o"
+	@echo "... src/main/Classes/Shapes/ShapeAbstract/Cube.i"
+	@echo "... src/main/Classes/Shapes/ShapeAbstract/Cube.s"
 	@echo "... src/main/Classes/Shapes/ShapeAbstract/Square.o"
 	@echo "... src/main/Classes/Shapes/ShapeAbstract/Square.i"
 	@echo "... src/main/Classes/Shapes/ShapeAbstract/Square.s"

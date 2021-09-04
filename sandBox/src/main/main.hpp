@@ -11,6 +11,7 @@
 #include "Classes/Window.hpp"
 #include "Classes/Colors.hpp"
 #include "Classes/Shapes/Triangles.hpp"
+#include "Classes/Shapes/Cubes.hpp"
 #include "Classes/Shapes/Squares.hpp"
 
 #endif

@@ -1,5 +1,5 @@
-#ifndef __CUBE_HPP__
-#define __CUBE_HPP__
+#ifndef __SQUARE_HPP__
+#define __SQUARE_HPP__
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -26,6 +26,7 @@ public:
     Triangle *getTriangles(void);
     GLfloat *getCoords(void);
     void setCoords(GLfloat coords[SQUARE_SIZE]);
+    void setWidth(GLfloat w);
     GLfloat *getColors(void);
     void setColors(GLfloat r, GLfloat g, GLfloat b);
 

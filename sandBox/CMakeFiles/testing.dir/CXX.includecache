@@ -36,7 +36,27 @@ GLFW/glfw3.h
 glm/glm.hpp
 -
 
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/ShapeAbstract/Square.cpp
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Cubes.cpp
+Cubes.hpp
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Cubes.hpp
+iostream
+-
+
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Cubes.hpp
+vector
+-
+ShapeAbstract/Cube.hpp
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/ShapeAbstract/Cube.hpp
+
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/ShapeAbstract/Cube.hpp
+vector
+-
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+glm/glm.hpp
+-
 Square.hpp
 /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/ShapeAbstract/Square.hpp
 
@@ -57,10 +77,6 @@ GLFW/glfw3.h
 -
 glm/glm.hpp
 -
-
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Squares.cpp
-Squares.hpp
-/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Squares.hpp
 
 /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Squares.hpp
 vector
@@ -109,6 +125,8 @@ Classes/Colors.hpp
 /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Colors.hpp
 Classes/Shapes/Triangles.hpp
 /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Triangles.hpp
+Classes/Shapes/Cubes.hpp
+/home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Cubes.hpp
 Classes/Shapes/Squares.hpp
 /home/me-an-intellectuel/Bureau/Perso/OpenGl/sandBox/src/main/Classes/Shapes/Squares.hpp
 

@@ -41,7 +41,9 @@ add_executable(testing
 	src/main/Classes/Colors.cpp
 	src/main/Classes/Shapes/Triangles.cpp
 	src/main/Classes/Shapes/Squares.cpp
+	src/main/Classes/Shapes/Cubes.cpp
 	src/main/Classes/Shapes/ShapeAbstract/Triangle.cpp
+	src/main/Classes/Shapes/ShapeAbstract/Cube.cpp
 	src/main/Classes/Shapes/ShapeAbstract/Square.cpp
 )
 target_link_libraries(testing
